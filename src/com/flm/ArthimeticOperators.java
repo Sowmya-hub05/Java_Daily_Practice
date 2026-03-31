@@ -12,10 +12,16 @@ public class ArthimeticOperators {
 			System.out.println(a-b);
 			System.out.println(a*b);
 			System.out.println(a/b);
-			System.out.println(a%b);
+			System.out.println(b%a);
 			System.out.println(total);
 			String hi="c"+"d";
 			System.out.println(hi);
+			System.out.println(a-'b');
+			System.out.println("add is - "+(a+b));
+			System.out.println(b*=a);
+	
+			a+=30;
+			System.out.println(a);
 		}
 
 }
