@@ -1,8 +1,16 @@
 package com.flm;
 
+import java.util.Scanner;
+
 public class Task1 {
 	public static void main(String[] args) {
-		int m=108;
-		System.out.println((m>90 && m<=100)?"Grade A":(m>70 && m<=90)?"Grade B":(m>50 && m<=70)?"Grade C":(m<=50 && m>=0)?"Fail":"Invalid");
+		Scanner sc=new Scanner (System.in);
+		System.out.println("enter name ");
+		String name=sc.next();
+		System.out.println(name);
+		sc.nextLine();
+		System.out.println("enter address ");
+		String address=sc.nextLine();
+		System.out.println(address);
 	}
 }
