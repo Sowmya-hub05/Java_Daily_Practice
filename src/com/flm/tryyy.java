@@ -1,11 +1,14 @@
 package com.flm;
 
+import java.util.Scanner;
+
 public class tryyy {
 	public static void main(String[] args) {
-	String company="FrontLines";
-	int len=company.length();
+	Scanner sc=new Scanner(System.in);
+	String input=sc.nextLine();
+	int len=input.length();
 	for(int i=0;i<10;i++) {
-		System.out.println(company.charAt(i));
+		System.out.println(input.charAt(i));
 	}
 			
 }
