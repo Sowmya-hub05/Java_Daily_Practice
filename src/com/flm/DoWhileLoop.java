@@ -6,7 +6,8 @@ public class DoWhileLoop {
 		do {
 			System.out.println("Hey yea!");
 			a++;
-		}while(a<1);
+		}
+		while(a<1);
 	}
 
 }
