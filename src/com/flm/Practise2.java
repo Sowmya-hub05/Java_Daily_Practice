@@ -8,6 +8,7 @@ public class Practise2 {
 			}
 			System.out.println(i);
 		}
+		
 	}
 
 }
