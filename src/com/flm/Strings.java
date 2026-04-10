@@ -13,5 +13,6 @@ public class Strings {
 		String s2=new String("FLM");
 		System.out.println(s1==s2); //compares both variables addresses and result is false bcoz the strings are created by using object.
 		System.out.println(s1.equals(s2)); // compares both variables all characters and result is true
+	
 	}
 }
