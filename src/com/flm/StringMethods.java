@@ -34,6 +34,7 @@ public class StringMethods {
 		String i="ManiDeep";
 		System.out.println(i.substring(0,4));
 		System.out.println(i.substring(4));
+		System.out.println(i.substring(0,1));
 		
 	}
 
