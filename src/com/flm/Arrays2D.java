@@ -13,6 +13,9 @@ public class Arrays2D {
 				System.out.println(a[i][j]);
 			}
 		}
+		for(String[] i:a) {
+			System.out.println(Arrays.toString(i));
+		}
 		
 		
 	}
