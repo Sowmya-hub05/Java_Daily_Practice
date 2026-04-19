@@ -1,6 +1,6 @@
 package com.flm;
 
-public class OOPS {
+public class Variabless {
 	int q=6;
 	public static void main(String[] args) {
 		
