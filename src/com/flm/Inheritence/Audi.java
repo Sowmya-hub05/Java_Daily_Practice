@@ -7,5 +7,17 @@ public class Audi extends Car{
 		System.out.println(" Hey Siri is not there! ");
 		
 	}
-
+	
+	@Override
+	void askdirections() {
+		System.out.println("Ask Siri for the Directions");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }

@@ -1,11 +1,13 @@
 package com.flm.Inheritence;
 
 public class Tests {
-	
+		
 	public static void main(String[] args) {
 		
+		
+		
 		Car c=new Car();
-	
+		
 		
 		BMW obj=new BMW();
 		obj.Siri();
@@ -15,6 +17,9 @@ public class Tests {
 		
 		FuelCar fc=new FuelCar();
 		fc.print();
+		System.out.println(fc.y);
+		
+		
 		
 		
 		
