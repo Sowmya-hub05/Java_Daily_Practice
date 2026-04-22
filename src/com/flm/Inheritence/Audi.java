@@ -3,6 +3,7 @@ package com.flm.Inheritence;
 public class Audi extends Car{
 	int y=3;
 	
+	
 	void Siri() {
 		System.out.println(" Hey Siri is not there! ");
 		
@@ -14,8 +15,9 @@ public class Audi extends Car{
 	}
 	
 	
-	
-	
+	static void breaks() {
+		System.out.println("The breaks are automatic"); // Method HIDING
+	}
 	
 	
 	

@@ -2,7 +2,10 @@ package com.flm;
 
 import java.util.Scanner;
 
-public class Arguments {
+import com.flm.Inheritence.Audi;
+
+public class Arguments  {
+	 
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
@@ -11,7 +14,6 @@ public class Arguments {
 		System.out.println(one+" "+args[0]+args[1]+" "+Two);
 		
 		
-	
 		
 	}
 }

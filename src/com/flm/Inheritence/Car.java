@@ -15,4 +15,9 @@ public class Car extends Vehicle{
 		System.out.println("Ask Strangers for directions");
 	}
 	
+	static void breaks() {
+		System.out.println("Apply breaks with legs");
+	}
+	 
+	
 }

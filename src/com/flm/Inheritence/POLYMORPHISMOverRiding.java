@@ -1,6 +1,8 @@
 package com.flm.Inheritence;
 
-public class POLYMORPHISMOverHiding {
+import com.flm.Arguments;
+
+public class POLYMORPHISMOverRiding extends Arguments {
 	
 	public static void main(String[] args) {
 		
@@ -8,9 +10,12 @@ public class POLYMORPHISMOverHiding {
 	
 		Audi a1=new Audi();
 		a1.askdirections(); //Overriding
+		a1.breaks();  // Method HIDING
 		
 		Car c=new Car();
 		c.askdirections();
+		c.breaks();
+		
 		
 		
 	}
